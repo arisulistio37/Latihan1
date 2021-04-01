@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen140dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/fp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prof"
+        android:layout_centerInParent="true"
+        android:text="@string/nama"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen18dp"/>
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_centerInParent="true"
+        android:text="@string/nim"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nim"
+        android:layout_centerInParent="true"
+        android:text="@string/kelas"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kelas"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen18dp"
+        android:text="@string/judulmakan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/makan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makanan"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/makanan"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kelas"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen15dp"
+        android:text="@string/judulhobi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makanan"
+        android:layout_centerInParent="true"
+        android:text="@string/hobi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kelas"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen15dp"
+        android:text="@string/judulminum"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makanan"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/minuman"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/jdullagu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makan"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen35dp"
+        android:text="@string/judulagu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/lagu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdullagu"
+        android:layout_centerInParent="true"
+        android:text="@string/lagu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/jdulfilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdullagu"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen25dp"
+        android:text="@string/judulfilm"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdulfilm"
+        android:layout_centerInParent="true"
+        android:text="@string/film"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/jduljob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdulfilm"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dimen35dp"
+        android:text="@string/juduljob"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jduljob"
+        android:layout_centerInParent="true"
+        android:text="@string/job"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/jdulalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job"
+        android:layout_alignLeft="@id/job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen35dp"
+        android:layout_marginLeft="-180dp"
+        android:text="@string/judulalamat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdulalamat"
+        android:layout_alignLeft="@id/job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-180dp"
+        android:text="@string/alamat"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/jdullahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen35dp"
+        android:text="@string/judulttl"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/lahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdulalamat"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lahir"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tgl"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/golda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen35dp"
+        android:layout_marginLeft="160dp"
+        android:layout_below="@id/job"
+        android:text="@string/judulgd"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+    <TextView
+        android:id="@+id/gol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jdulalamat"
+        android:layout_alignLeft="@id/job"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="218dp"
+        android:text="@string/goldarah"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen15dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Latihan1</string>
+    <string name="judulnama">Nama</string>
+    <string name="nama">Ari Sulistio</string>
+    <string name="nim">10118030</string>
+    <string name="kelas">IF-1</string>
+    <string name="juduljk">Jenis Kelamin</string>
+    <string name="jeniskelamin">Laki-Laki</string>
+    <string name="judulttl">Lahir di</string>
+    <string name="tt">Bandung</string>
+    <string name="tgl">17 Juli 2000</string>
+    <string name="judulalamat">Alamat Sekarang</string>
+    <string name="alamat">Ujungberung</string>
+    <string name="judulgd">Gol. Darah</string>
+    <string name="goldarah">O</string>
+    <string name="judulmakan">Makanan Favorit</string>
+    <string name="makanan">Mie Ayam</string>
+    <string name="judulminum">Minuman Favorit</string>
+    <string name="minuman">Kopi</string>
+    <string name="judulhobi">Hobi</string>
+    <string name="hobi">Nonton</string>
+    <string name="judulagu">Lagu Favorit</string>
+    <string name="lagu">The Script - Never Seen Anything Quite Like You</string>
+    <string name="judulfilm">Film Favorit</string>
+    <string name="film">The Dark Knight</string>
+    <string name="juduljob">Pekerjaan yang diinginkan setelah Kuliah</string>
+    <string name="job">Dishub</string>
+</resources>
